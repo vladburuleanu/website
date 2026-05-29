@@ -34,7 +34,15 @@ Ordered necessary hardware components and started the development process of the
 
 Finished 3d design of wing and tail structure.
 
-# Week 9
+# Week 9-10
+
+# Week 11-12
+
+# Week 13-14
+Designed and laser-cut the drone elements from balsa and ply wood.
+Assembled the main wing and ampenage.
+Due to time constraints I replaced the raspberry pi pico with an stm32 for faster development.
+NRF24L01 modeules turned out to be broken after a long trobleshooting session, so i will have to resort to a wired demonstrarion.
 
 ## Hardware
 
@@ -47,11 +55,16 @@ The Ground Station is centered around a Raspberry pi Zero 2W, who's main purpose
 ![kicad_schematic](./images/drone.svg)
 ![kicad_schematic](./images/ground_station.svg)
 
+### photos
+![photo1](./images/drone.webp)
+![photo2](./images/circuit.webp)
+![photo3](./images/mounted_ciruit.webp)
+
 ### Bill of materials
 
 | Device | Usage | Price |
 | :--- | :--- | :--- |
-| Raspberry pi Zero 2W | ground station computer | _ RON |
+| STM32 Board | ground station computer | _ RON |
 | NRF24L01+ x2 | RF transmitter/recievers | _ RON |
 | OLED 128x64 pixels I2C | display | _ RON |
 | raspberry pi pico 2W | microcontroller/ flight computer | _ RON |
